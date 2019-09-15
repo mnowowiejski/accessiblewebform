@@ -70,7 +70,7 @@ a {
 }
 
 .form__submit {
-    background: #326f10;
+    background: navy;
     color: #fff;
     border: none;
     padding: 0.6em;
@@ -86,7 +86,7 @@ a {
 }
 
 .has-error input {
-    border: 2px solid #b0141d;
+    border: 2px solid red;
 }
 
 .form__toggle-password {
