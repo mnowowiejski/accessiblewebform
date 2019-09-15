@@ -24,7 +24,7 @@ form:after {
 }
 
 a {
-    color: #0a39ce;
+    color: purple;
 }
 
 
@@ -49,12 +49,14 @@ a {
     padding: 0.6em;
     font-size: 1.3em;
     border: 2px solid ##eee;
+    border-radius: 10px;
 }
 
 .form__required {
     float: right;
     font-size: 0.8em;
-    background: #ddd;
+    background: red;
+    color: white;
     padding: 0.3em;
 }
 
@@ -73,9 +75,10 @@ a {
     background: navy;
     color: #fff;
     border: none;
-    padding: 0.6em;
-    font-size: 1.4em;
+    padding: 0.5em;
+    font-size: 1.25em;
     float: right;
+    border-radius: 10px;
 }
 
 .form__error {
