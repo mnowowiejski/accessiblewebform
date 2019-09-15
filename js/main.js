@@ -1,4 +1,3 @@
-// cut the mustard
 var form = document.createElement('form');
 if ('checkValidity' in form && 'querySelector' in document && 'classList' in document.documentElement) {
 
