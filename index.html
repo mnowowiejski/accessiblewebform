@@ -14,30 +14,30 @@
 <body>
     <h1>Login</h1>
     <form action="login.html" method="post">
-        <div class="form__element">
-            <label class="form__label" for="username">
+        <div class="form_element">
+            <label class="form_label" for="username">
                 Username
-                <span class="form__required">required</span>
+                <span class="form_required">required</span>
             </label>
-            <input class="form__input" id="username" type="text" name="username" required pattern="level" autocomplete="username" data-error="Not a valid user name." data-empty="Please enter a user name">
+            <input class="form_input" id="username" type="text" name="username" required pattern="level" autocomplete="username" data-error="Not a valid user name." data-empty="Please enter a user name">
         </div>
 
-        <div class="form__element">
-            <label class="form__label" for="password">
+        <div class="form_element">
+            <label class="form_label" for="password">
                 Password
-                <span class="form__required">required</span>
+                <span class="form_required">required</span>
             </label>
-            <div class="form__element-inner">
-                <input data-toggle-password-field class="form__input" id="password" type="password" name="password" required pattern="Access123" aria-describedby="passwordHint" autocomplete="current-password" data-error="Error! Please check your password format." data-empty="A Password is required.">
-                <button type="button" hidden aria-pressed="false" class="form__toggle-password" data-toggle-password>
+            <div class="form_element-inner">
+                <input data-toggle-password-field class="form_input" id="password" type="password" name="password" required pattern="Access123" aria-describedby="passwordHint" autocomplete="current-password" data-error="Error! Please check your password format." data-empty="A Password is required.">
+                <button type="button" hidden aria-pressed="false" class="form_toggle-password" data-toggle-password>
                     <span>Show password</span>
                 </button>
             </div>
 
-            <p class="form__hint" id="passwordHint" style="border-radius: 0px">The Password must include one capital letter, one lower case letter, and at least one number.</p>
+            <p class="form_hint" id="passwordHint" style="border-radius: 0px">The Password must include one capital letter, one lower case letter, and at least one number.</p>
         </div>
         <a href="mailto:graphicmarkus@gmail.com">Forgot password?</a>
-        <input class="form__submit" type="submit" value="Login">
+        <input class="form_submit" type="submit" value="Login">
     </form>
 
     <script src="js/main.js"></script>

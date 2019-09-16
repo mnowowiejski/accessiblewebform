@@ -1,3 +1,5 @@
+//Browser Support Check
+
 var form = document.createElement('form');
 if ('checkValidity' in form && 'querySelector' in document && 'classList' in document.documentElement) {
 
@@ -17,7 +19,7 @@ if ('checkValidity' in form && 'querySelector' in document && 'classList' in doc
         });
     }
 
-    // form validation
+    // validation
     var inputs = document.querySelectorAll("[data-error]");
 
     if (inputs.length > 0) {
@@ -31,7 +33,7 @@ if ('checkValidity' in form && 'querySelector' in document && 'classList' in doc
                 if (!oldMessage) {
                     newMessage = document.createElement("p");
                     newMessage.setAttribute('role', 'alert');
-                    newMessage.classList.add('form__error');
+                    newMessage.classList.add('form_error');
                     newMessage.setAttribute('id', 'alert-' + input.name);
                 } else {
                     newMessage = oldMessage;
@@ -78,7 +80,8 @@ if ('checkValidity' in form && 'querySelector' in document && 'classList' in doc
         });
     }
 
-    // toggle password field between type="text" and type="password"
+
+    // hide/show password script
     var togglePasswordButton = document.querySelector('[data-toggle-password]');
 
     if (togglePasswordButton) {
